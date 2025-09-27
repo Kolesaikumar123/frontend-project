@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body>
+    <h1>NU Html Checker</h1>
+    <p>the tool is an ongoing experiment in better HTML checking, andits
+        behavior remains subject to change</p>
+    <h2><b>Showing results for a01</b></h2>
+    <fieldset>
+        <legend>checker input</legend>
+     <form>  
+    <label>show</label>
+    <button>
+        <label><input type="checkbox">source</label>
+        <label><input type="checkbox">outline</label>
+        <label><input type="checkbox">image report</label></button>
+        <button><label>options....</label></button><br>
+       <label>check</label>
+       <button>chossen file</button>
+       <label>no file chossen</label>
+       <p>upload files with .xhtml estensions are parsed</p>
+    </form>
+    </fieldset>
+    <h3>document checking completed.no error or warnings to show.</h3>
+    <p>used the html parser.</p>
+    <p>total exculsion time 3 milliseconds</p>
+    <hr/>   
+</body>
+</html>
+
+h1{
+    background-color: blue;
+    
+}
+h3{
+    background-color: aquamarine;
+}
+
+
+
